@@ -1,5 +1,9 @@
 # How to quickly plan and estimate an MVP
 
+## Diagram
+
+![Diagram](images/diagram.png)
+
 ## Initial questions
 
 What do you want to build?  
@@ -54,15 +58,8 @@ Relative estimation.
 
 Simple example: **how big is A**?  
 
-```
-           ┌───────────┐       
-┌───────┐  │           │  ┌───┐
-│       │  │           │  │   │
-│   A   │  │     B     │  │ C │
-│       │  │           │  │   │
-└───────┘  │           │  └───┘
-           └───────────┘       
-```
+![ABC](images/abc.png)
+
 Just by eyeballing it, you don't know exactly how big it is in cm or pixels, but you can figure out that it is **smaller than B** and **bigger than C**.
 
 If you have two User Stories, it doesn't matter "how long they will take". Is one of the stories more difficult than the other? If so, it will be rated more Story Points. 
@@ -139,7 +136,7 @@ In the example, "User can initiate checkout and pay" can break down into:
 
 *This deviates a bit from Agile/Scrum best practices. It doesn't make any guarantees,  but people like to have some sort of estimate when things will be completed (even if the estimate is known to have a large margin of error. But it's good enough to provide a rough guide to plan future development, marketing releases, how high to charge a customer to make sure you don't lose money on a new project, etc.*
 
-With the existing team, think hard about how many stories the team could finish in a sprint (I like 1-week sprints). As an example, let's say they think they can complete the first three stories, which adds up to 5 points. This is the **velocity**.
+With the existing team, think hard about how many stories the team could finish in a sprint (I like 1-week sprints). As an example, let's say they think they can complete the first three stories, which adds up to 5 points. This is the *estimated velocity*.
 
 | Epic/Group | User Story                                     | Point Value |
 |------------|------------------------------------------------|-------------|
